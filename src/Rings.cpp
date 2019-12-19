@@ -197,11 +197,11 @@ struct Rings : Module {
 			dsp::Frame<2> outputFrame = outputBuffer.shift();
 			// "Note that you need to insert a jack into each output to split the signals: when only one jack is inserted, both signals are mixed together."
 			if (outputs[ODD_OUTPUT].isConnected() && outputs[EVEN_OUTPUT].isConnected()) {
-				outputs[ODD_OUTPUT].setVoltage(clamp(outputFrame.samples[0], -1.0, 1.0)*5.0);
-				outputs[EVEN_OUTPUT].setVoltage(clamp(outputFrame.samples[1], -1.0, 1.0)*5.0);
+				outputs[ODD_OUTPUT].setVoltage(outputFrame.samples[0]*5.0);
+				outputs[EVEN_OUTPUT].setVoltage(outputFrame.samples[1]*5.0);
 			}
 			else {
-				float v = clamp(outputFrame.samples[0] + outputFrame.samples[1], -1.0, 1.0)*5.0;
+				float v = (outputFrame.samples[0] + outputFrame.samples[1])*5.0;
 				outputs[ODD_OUTPUT].setVoltage(v);
 				outputs[EVEN_OUTPUT].setVoltage(v);
 			}
