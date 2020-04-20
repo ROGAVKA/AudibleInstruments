@@ -1,9 +1,9 @@
-#include "AudibleInstruments.hpp"
+#include "plugin.hpp"
 
 
-Plugin *pluginInstance;
+Plugin* pluginInstance;
 
-void init(rack::Plugin *p) {
+void init(rack::Plugin* p) {
 	pluginInstance = p;
 
 	p->addModel(modelBraids);
@@ -23,4 +23,5 @@ void init(rack::Plugin *p) {
 	p->addModel(modelFrames);
 	p->addModel(modelMarbles);
 	p->addModel(modelStages);
+	p->addModel(modelRipples);
 }

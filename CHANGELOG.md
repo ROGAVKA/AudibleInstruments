@@ -1,12 +1,26 @@
+### 1.1.0 (2020-04-16)
+- Macro Oscillator
+	- Change range of frequency parameter to [-4, 4] octaves in order to match hardware.
+	- Clean up parameter quantities.
+- Macro Oscillator 2
+	- Make polyphonic.
+	- Use separate "invisible" parameters for LPG response and decay, so they can be MIDI-mapped and generally behave better.
+	- Clean up parameter quantities.
+
+### 1.0.2 (2020-02-29)
+- Add ModularGrid URLs to manifest.
+
+### 1.0.1 (2020-02-27)
+- Fix tags and module descriptions.
+
+### 1.0.0 (2019-06-13)
+- Port to v1.
 
 ### 0.6.3 (2018-10-10)
-
-- Added Segment Generator
+- Add Segment Generator.
 
 ### 0.6.2 (2018-10-09)
-
-- Added Random Sampler from Audible Instruments Preview
+- Add Random Sampler from Audible Instruments Preview.
 
 ### 0.6.1 (2018-09-12)
-
-- Added Macro Oscillator 2 from Audible Instruments Preview
+- Add Macro Oscillator 2 from Audible Instruments Preview.

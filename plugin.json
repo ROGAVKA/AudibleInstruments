@@ -1,184 +1,215 @@
 {
   "slug": "AudibleInstruments",
-  "version": "1.0.0",
-  "license": "GPL-3.0-only",
+  "version": "1.1.0",
+  "license": "GPL-3.0-or-later",
   "name": "Audible Instruments",
   "author": "VCV",
   "authorEmail": "contact@vcvrack.com",
   "authorUrl": "https://vcvrack.com/",
-  "pluginUrl": "https://vcvrack.com/AudibleInstruments.html",
-  "manualUrl": "https://vcvrack.com/AudibleInstruments.html#manual",
+  "pluginUrl": "https://vcvrack.com/AudibleInstruments",
+  "manualUrl": "https://vcvrack.com/AudibleInstruments#manual",
   "sourceUrl": "https://github.com/VCVRack/AudibleInstruments",
+  "changelogUrl": "https://github.com/VCVRack/AudibleInstruments/blob/v1/CHANGELOG.md",
   "donateUrl": "",
   "modules": [
     {
       "slug": "Braids",
       "name": "Macro Oscillator",
       "description": "Based on Mutable Instruments Braids",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-braids-2015",
       "tags": [
         "Oscillator",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Plaits",
       "name": "Macro Oscillator 2",
       "description": "Based on Mutable Instruments Plaits",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-plaits",
       "tags": [
         "Oscillator",
-        "Hardware"
+        "Hardware clone",
+        "Polyphonic"
       ]
     },
     {
       "slug": "Elements",
       "name": "Modal Synthesizer",
       "description": "Based on Mutable Instruments Elements",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-elements",
       "tags": [
         "Physical modeling",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Tides",
       "name": "Tidal Modulator",
       "description": "Based on Mutable Instruments Tides",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-tides-2014-version",
       "tags": [
         "LFO",
         "Oscillator",
         "Waveshaper",
         "Function generator",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Tides2",
       "name": "Tidal Modulator 2",
       "description": "Based on Mutable Instruments Tides",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-tides",
       "tags": [
         "LFO",
         "Oscillator",
         "Waveshaper",
         "Function generator",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Clouds",
       "name": "Texture Synthesizer",
       "description": "Based on Mutable Instruments Clouds",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-clouds",
       "tags": [
         "Granular",
         "Reverb",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Warps",
       "name": "Meta Modulator",
       "description": "Based on Mutable Instruments Warps",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-warps",
       "tags": [
         "Ring modulator",
         "Waveshaper",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Rings",
       "name": "Resonator",
       "description": "Based on Mutable Instruments Rings",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-rings",
       "tags": [
         "Physical modeling",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Links",
       "name": "Multiples",
       "description": "Based on Mutable Instruments Links",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-links",
       "tags": [
         "Multiple",
         "Mixer",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Kinks",
       "name": "Utilities",
       "description": "Based on Mutable Instruments Kinks",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-kinks",
       "tags": [
         "Utility",
         "Sample and hold",
         "Noise",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Shades",
       "name": "Mixer",
       "description": "Based on Mutable Instruments Shades",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-shades-",
       "tags": [
         "Mixer",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Branches",
       "name": "Bernoulli Gate",
       "description": "Based on Mutable Instruments Branches",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-branches",
       "tags": [
         "Random",
         "Dual",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Blinds",
       "name": "Quad VC-polarizer",
       "description": "Based on Mutable Instruments Blinds",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-blinds",
       "tags": [
         "Mixer",
         "Attenuator",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Veils",
       "name": "Quad VCA",
       "description": "Based on Mutable Instruments Veils",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-veils",
       "tags": [
         "Mixer",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Frames",
       "name": "Keyframer/Mixer",
       "description": "Based on Mutable Instruments Frames",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-frames",
       "tags": [
         "Oscillator",
         "Mixer",
         "Attenuator",
         "LFO",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Stages",
       "name": "Segment Generator",
       "description": "Based on Mutable Instruments Stages",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-stages",
       "tags": [
         "Function generator",
         "Envelope generator",
-        "Hardware"
+        "Hardware clone"
       ]
     },
     {
       "slug": "Marbles",
       "name": "Random Sampler",
       "description": "Based on Mutable Instruments Marbles",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-marbles",
       "tags": [
         "Random",
-        "Hardware"
+        "Hardware clone"
+      ]
+    },
+    {
+      "slug": "Ripples",
+      "disabled": true,
+      "name": "Liquid Filter",
+      "description": "Based on Mutable Instruments Ripples",
+      "modularGridUrl": "https://www.modulargrid.net/e/mutable-instruments-ripples",
+      "tags": [
+        "Filter",
+        "Voltage-controlled amplifier",
+        "Hardware clone"
       ]
     }
   ]
