@@ -1,3 +1,14 @@
+### 1.3.1 (2020-07-14)
+- Rewrite and re-panel Branches.
+- Make Branches polyphonic.
+
+### 1.3.0 (2020-05-29)
+- Add EQ Filter.
+
+### 1.2.1 (2020-04-23)
+- Multiples
+	- Make polyphonic.
+
 ### 1.2.0 (2020-04-20)
 - Add Liquid Filter
 

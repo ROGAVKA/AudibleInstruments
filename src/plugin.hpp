@@ -1,4 +1,4 @@
-#include "rack.hpp"
+#include <rack.hpp>
 
 
 using namespace rack;
@@ -24,3 +24,5 @@ extern Model* modelFrames;
 extern Model* modelStages;
 extern Model* modelMarbles;
 extern Model* modelRipples;
+extern Model* modelShelves;
+extern Model* modelStreams;
